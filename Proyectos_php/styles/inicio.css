@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: lightgreen;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: left;
+    background-color: #E59866;
+
+}
+
+th {
+    background-color: #F9E79F;
+}
+
+.calendario {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+
+.mes {
+    margin-bottom: 20px;
+}
+
+.nombre_mes {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dias {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dia {
+    width: calc(100% / 7);
+    padding: 10px;
+    border: 1px solid #333;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.dia.trabajado {
+    background-color: #F9E79F;
+}
+
+.dia.hoy {
+    border: 3px solid #333;
+    border-collapse: collapse;
+}
+
+.datos{
+    text-transform: capitalize;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.titulo{
+    font-size: 50px;
+    margin-bottom: 50px;
+    display: flex;        
+    justify-content: center; 
+    align-items: center;
+    border: solid 1px #000;
+    border-radius: 6px;
+    background-color: beige;
+}
+.boton{
+    width: 40px;
+    /* margin-left: auto; */
+    padding: 15px 30px;
+    border: none;
+    background-color: lightseagreen;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    display: flex;   
+    flex-wrap: wrap;     
+    justify-content: right; 
+    align-items: right;
+    font-weight: bold;
+    text-decoration: none;;
+
+}
+
+
+a:visited{
+    color: black;
+}
+.contenedor_usuario{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* object-fit: contain; */
+}
